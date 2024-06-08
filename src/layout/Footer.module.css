@@ -1,0 +1,19 @@
+.container {
+  max-width: 95%;
+  width: 95%;
+  margin: 20px auto;
+  padding: 70px 0;
+  background: var(--background);
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+
+.container p span {
+  color: var(--dark-pink-theme);
+}
+
+.container p a {
+  color: var(--pink-theme);
+  text-decoration: underline;
+}

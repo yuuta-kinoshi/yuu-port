@@ -1,0 +1,11 @@
+.linksContainer {
+  width: 100%;
+  height: 500px;
+  border: 1px solid var(--pink-theme);
+  margin-top: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}

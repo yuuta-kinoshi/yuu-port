@@ -1,0 +1,185 @@
+.aboutMeWrapper .contentLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 20px;
+
+  width: 50%;
+  height: 300px;
+}
+
+.top {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.top h1 {
+  font-size: 5em;
+}
+
+.top h2 {
+  font-size: 2em;
+}
+
+.developer {
+  text-align: left;
+  margin: 60px 0;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+  gap: 20px;
+}
+
+
+
+.developer p {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.lineText::before {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 2px;
+  background-color: var(--pink-theme);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  height: 800px;
+  margin-top: 40px;
+}
+
+.block1 strong {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+.block1 p {
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.block1 button {
+  margin-top: 10px;
+}
+
+.me,
+.moreAboutMe {
+  flex: 48.5%;
+}
+
+.lineCenter {
+  width: 1px;
+  height: 80%;
+  background-color: var(--light-pink-theme);
+  flex: 0.1%;
+}
+
+.me h2 {
+  margin: 60px 0 40px 0;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.imgBunner {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.embedges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 130px;
+  background-color: var(--dark-pink-theme);
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+}
+
+.experience p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.experience p strong {
+  font-size: 2em;
+}
+
+.me img {
+  width: 100%;
+  margin-top: 20px;
+  clip-path: polygon(85% 0, 100% 15%, 100% 100%, 0 100%, 0 0);
+  border-radius: 10px 0 10px 10px;
+}
+
+.moreAboutMe img {
+  width: 100%;
+  margin: 20px 0;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+  border-radius: 0 10px 10px 10px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.moreAboutMe h3 {
+  margin-bottom: 16px;
+}
+
+.hardSkills {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 700px) {
+  .introduction h1 {
+    font-size: 4em;
+  }
+  
+  .blocks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .lineCenter {
+    display: none;
+  }
+
+  .me h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    margin-top: -30px;
+  }
+
+  .experience {
+    width: 120px;
+    height: 90px;
+    text-align: center;
+    transform: translateX(35px);
+  }
+}

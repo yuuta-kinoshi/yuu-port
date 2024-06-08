@@ -1,0 +1,27 @@
+#embedge {
+  height: 20px;
+  border-radius: 3px;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+#embedge:hover {
+  transform: scale(1.1);
+}
+
+#embedge p {
+  font-weight: 500;
+  font-size: .8em;
+  color: black;
+}
+
+#embedge svg,
+#embedge p { 
+  color: black;
+}

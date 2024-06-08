@@ -1,0 +1,125 @@
+
+
+:root {
+  --background: #232323;
+  --primary-color: #11111f;
+  --light-pink-theme: rgb(241, 197, 230);
+  --pink-theme: rgb(236, 134, 208);
+  --dark-pink-theme: rgb(184, 6, 136);
+  --dark-one: #afafaf;
+  --dark-two: #817777;
+  --dark-three: #3f3434;
+  --dark-four: #181313;
+}
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--light-pink-theme);
+ }
+
+ html {
+  scroll-behavior: smooth; 
+  
+ }
+
+ .wrapper {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--primary-color);
+  cursor: 
+    url('./assets/cursors/normal_cursor.png') 64 64;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  background: var(--pink-theme);
+  color: var(--primary-color);
+  padding: 10px 30px;
+  border: 2px solid var(--pink-theme);
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+button:hover,
+button:hover svg {
+  background: transparent;
+  color: var(--pink-theme);
+}
+
+a:hover {
+  cursor: 
+    url('./assets/cursors/link_cursor.png') 64 64;
+}
+
+input[type='text'], 
+input[type='email'], 
+input[type='password'] {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 0px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #007bff; /* Azul */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffc107; /* Amarelo */
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 100px;
+  height: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pink-theme);
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pink-theme);
+}
+::-webkit-scrollbar-thumb:active {
+  background: #b80688;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

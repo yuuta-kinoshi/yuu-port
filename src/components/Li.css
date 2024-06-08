@@ -1,0 +1,21 @@
+#linksLi {
+  width: 300px;
+  height: 54px;
+  border-radius: 7px;
+  border: 1px solid var(--pink-theme);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+#linksLi svg {
+  font-size: 1.4em;
+}
+
+#linksLi svg:nth-child(2) {
+  cursor: pointer;
+}

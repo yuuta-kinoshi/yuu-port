@@ -1,0 +1,11 @@
+.inviteDiscordWrapper {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 200px;
+}
+
+.rightContent {
+  display: grid;
+  gap: 20px;
+}
