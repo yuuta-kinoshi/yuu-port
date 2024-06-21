@@ -1,5 +1,5 @@
-#linksLi {
-  width: 300px;
+#li {
+  width: 800px;
   height: 54px;
   border-radius: 7px;
   border: 1px solid var(--pink-theme);
@@ -10,12 +10,58 @@
 
   padding: 0 20px;
   margin-bottom: 10px;
+
+  transition: .35s;
+
+  position: relative;
 }
 
-#linksLi svg {
+#li svg {
   font-size: 1.4em;
+  position: relative;
+  z-index: 20;
 }
 
-#linksLi svg:nth-child(2) {
+#li svg:nth-child(2) {
   cursor: pointer;
+}
+
+#li:hover {
+  transform: scale(1.05);
+}
+
+#li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  height: 100%;
+  padding-right: 300px;
+  box-sizing: content-box;
+}
+
+.modal-link {
+  position: absolute;
+  padding: 10px;
+  background-color: var(--light-pink-theme);
+  border-radius: 7px;
+  right: -140px;
+}
+
+.modal-link li {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8em;
+  background-color: var(--pink-theme);
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: .35s;
+}
+
+.modal-link li:active {
+  transform: scale(0.8);
 }

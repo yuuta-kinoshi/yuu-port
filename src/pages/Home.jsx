@@ -13,6 +13,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaBrain, FaCss3, FaHtml5, FaLightbulb, FaNodeJs, FaPeopleGroup, FaReact, FaSass } from "react-icons/fa6";
 import { SiStyledcomponents } from "react-icons/si";
 import { RiSpeakFill } from "react-icons/ri";
+import FormSubmit from "../sections/FormSubmit";
 
 const Home = () => {
   return (
@@ -95,69 +96,79 @@ const Home = () => {
                   <Embedge
                     icon={<FaHtml5 />}
                     technology="HTML5"
-                    bgColor="#FF5733"
+                    bgColor="var(--dark-pink-theme)"
                   />
                   <Embedge
                     icon={<FaCss3 />}
                     technology="CSS3"
-                    bgColor="#2465f1"
+                    bgColor="var(--dark-pink-theme)"
                   />
                   <Embedge
                     icon={<FaSass />}
                     technology="SASS"
-                    bgColor="#cf649a"
+                    bgColor="var(--dark-pink-theme)"
                   />
                   <Embedge
                     icon={<IoLogoJavascript />}
                     technology="Javascript"
-                    bgColor="#F7DF1E"
+                    bgColor="var(--dark-pink-theme)"
                   />
                   <Embedge
                     icon={<FaNodeJs />}
                     technology="NodeJs"
-                    bgColor="#4e9b43"
+                    bgColor="var(--dark-pink-theme)"
                   />
                   <Embedge
                     icon={<FaReact />}
                     technology="React"
-                    bgColor="#149eca"
+                    bgColor="var(--dark-pink-theme)"
                   />
                   <Embedge
                     icon={<SiStyledcomponents />}
                     technology="Styled Components"
-                    bgColor="#ffffff"
+                    bgColor="var(--dark-pink-theme)"
                   />
+
                 </div>
               </div>
               <div className="softSkills">
                 <h3>Soft Skills</h3>
-                <div className="embedges">
+                <div className="embedges" style={{ marginBottom: '53px' }}>
                   <Embedge
                     icon={<FaBrain />}
                     technology="Self-taught"
-                    bgColor="#fff"
+                    bgColor="var(--pink-theme)"
                   />
                   <Embedge
                     icon={<FaPeopleGroup />}
                     technology="Group work"
-                    bgColor="#fff"
+                    bgColor="var(--pink-theme)"
                   />
                   <Embedge
                     icon={<RiSpeakFill />}
                     technology="Communication"
-                    bgColor="#fff"
+                    bgColor="var(--pink-theme)"
                   />
                   <Embedge
                     icon={<FaLightbulb />}
                     technology="Creativity "
-                    bgColor="#fff"
+                    bgColor="var(--pink-theme)"
                   />
                 </div>
+                <Button url='/aboutme' text='Show more' />
               </div>
             </div>
           </section>
           <section>
-            <Carolsel title="Certificados" />
+            <Carolsel title="Certificates" />
+          </section>
+          <section id="quots" className="submitFormContainer">
+            <div className="submitForm">
+              <div>
+                <h3>Innovative ideas to <span>skyrocket your online business</span>: Discover the top strategies to attract more customers and boost sales.</h3>
+              </div>
+              <FormSubmit />
+            </div>
           </section>
         </div>
       </main>

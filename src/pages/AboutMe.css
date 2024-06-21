@@ -1,0 +1,24 @@
+.about-modal {
+  max-width: 1200px;
+  margin: 40px auto;
+  border: 1px solid var(--light-pink-theme);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+} 
+
+.technology svg {
+  font-size: 2em;
+  margin: 40px 25px 0 25px;
+  transition: .35s;
+  color: var(--light-pink-theme);
+}
+
+.technology svg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

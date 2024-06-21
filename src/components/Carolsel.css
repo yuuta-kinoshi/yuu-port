@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+  .carolselContainer {
+    margin-top: 440px;
+    
+  }
+}
+
+.carolselContainer .swiper-container {
+  width: 100%; /* Sempre ocupa 100% da largura disponível */
+}
+
+@media only screen and (max-width: 700px) {
+  .carolselContainer .swiper-container {
+    /* Para telas menores que 700px, exibe apenas 1 slide */
+    slidesPerView: 1;
+  }
+}

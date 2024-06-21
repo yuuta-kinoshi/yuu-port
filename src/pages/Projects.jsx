@@ -18,48 +18,18 @@ const Projects = () => {
   }
 
   return (
-    <div style={{ marginTop: "50px" }}>
-      <form
-        onSubmit={handleSubmit}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: "20px",
-        }}
-      >
-        <div
-          className="div"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "5px",
-          }}
-        >
-          <label htmlFor="name">Nome: </label>
-          <input
-            placeholder="Your name"
-            required
-            type="text"
-            value={form.name}
-            name="name"
-            onChange={handleChange}
-          />
-          {form.name}
-          <label htmlFor="email">Email: </label>
-          <input
-            required
-            placeholder="Your email"
-            type="email"
-            value={form.email}
-            name="email"
-            onChange={handleChange}
-          />
-          {form.email}
-        </div>
-        <button>Enviar</button>
-      </form>
+    <div style={{
+      width: '100%',
+      height: '40vh',
+      cursor: 'not-allowed',
+      display: 'grid',
+      placeContent: 'center'
+    }}>
+      <h1 style={{
+        fontSize: '36px',
+        textAlign: 'center',
+        opacity: '.4'
+      }}>Nothing Here</h1>
     </div>
   );
 };

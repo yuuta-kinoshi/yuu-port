@@ -19,13 +19,25 @@
   text-decoration: none;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
-  color: var(--light-pink-theme);
+  
  }
+
+ h1, h2, h3, h4, 
+ h5, h6, p, a, li,
+ label, strong, b {
+  color: var(--light-pink-theme);
+ } 
+
+ ::placeholder {
+  color: var(--dark-pink-theme);
+ }
+
 
  html {
   scroll-behavior: smooth; 
   
- }
+ } 
+
 
  .wrapper {
   max-width: 1200px;
@@ -37,6 +49,7 @@ body {
   background-color: var(--primary-color);
   cursor: 
     url('./assets/cursors/normal_cursor.png') 64 64;
+  overflow-x: hidden;
 }
 
 body {

@@ -4,21 +4,6 @@ import Icon from "../assets/icon.jpeg";
 import style from "./Header.module.css";
 
 const Header = () => {
-
-  const [header, setHeader] = React.useState(true)
-  const { pathname } = window.location;
-
-  console.log(pathname)
-
-  React.useEffect(() => {
-    if(pathname === '/quots') {
-      setHeader(false)
-    } else {
-      setHeader(true)
-    }
-  }, [pathname])
-
-  if (header)
     return (
       <header>
         <div className={style.wrapper}>
@@ -52,7 +37,6 @@ const Header = () => {
         </div>
       </header>
     );
-  else return;
 };
 
 export default Header;

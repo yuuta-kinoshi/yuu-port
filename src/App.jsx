@@ -8,14 +8,11 @@ import Links from "./pages/Links";
 import Footer from "./layout/Footer";
 import Quots from "./pages/Quots";
 import TopHeader from "./layout/TopHeader";
-import PreLoader from "./components/PreLoader";
-import Interaction from "./components/Interaction";
+import AboutMe from "./pages/AboutMe";
 
 export function App() {
   return (
     <>
-      <Interaction />
-      {!Interaction ? <PreLoader /> : !Interaction}
       <Router>
         <TopHeader />
         <Header />
@@ -24,6 +21,7 @@ export function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/links" element={<Links />} />
           <Route path="/quots" element={<Quots />} />
+          <Route path="/aboutme" element={<AboutMe />} />
         </Routes>
         <Footer />
       </Router>

@@ -4,26 +4,16 @@ import Li from '../components/Li'
 
 import {
   FaDiscord,
-  FaGithub
+  FaGithub,
+  FaYoutube
 } from 'react-icons/fa6'
 
 const Links = () => {
   return (
     <div className='linksContainer wrapper'>
       <Li icon={<FaGithub />} text="Git Hub" url="https://github.com/yuuta-kinoshi" target="_blank" />
-      <Li icon={<FaDiscord />} text="Discord" />
-      <Li icon={<FaGithub />} text="Git Hub" />
-      <Li icon={<FaDiscord />} text="Discord" />
-      <Li icon={<FaGithub />} text="Git Hub" />
-      <Li icon={<FaDiscord />} text="Discord" />
-      <Li icon={<FaGithub />} text="Git Hub" />
-      <Li icon={<FaDiscord />} text="Discord" />
-      <Li icon={<FaGithub />} text="Git Hub" />
-      <Li icon={<FaDiscord />} text="Discord" />
-      <Li icon={<FaGithub />} text="Git Hub" />
-      <Li icon={<FaDiscord />} text="Discord" />
-      <Li icon={<FaGithub />} text="Git Hub" />
-      <Li icon={<FaDiscord />} text="Discord" />
+      <Li icon={<FaDiscord />} text="Discord" url='https://discord.gg/yu5f88FkQj' target="_blank" />
+      <Li icon={<FaYoutube />} text='YouTube' url="https://www.youtube.com/@yuutakinoshi" target="_blank" />
     </div>
   )
 }

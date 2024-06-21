@@ -18,10 +18,9 @@
 #embedge p {
   font-weight: 500;
   font-size: .8em;
-  color: black;
 }
 
 #embedge svg,
 #embedge p { 
-  color: black;
+  color: var(--light-pink-theme);
 }

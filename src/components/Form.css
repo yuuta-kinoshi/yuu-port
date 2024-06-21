@@ -1,0 +1,26 @@
+.globalForm,
+textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 7px 5px 0px 0px var(--light-pink-theme) !important;
+  max-width: 800px;
+  width: 100%;  
+}
+
+textarea {
+  height: 100px;
+}
+
+#emailSubmit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

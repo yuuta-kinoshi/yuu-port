@@ -183,3 +183,34 @@
     transform: translateX(35px);
   }
 }
+
+.submitFormContainer {
+  background-color: var(--dark-pink-theme);
+  max-width: 100%;
+  width: 100%;
+  padding: 0 50px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 0px var(--light-pink-theme);
+  margin: 100px 0 50px 0;
+}
+
+.submitForm {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 100px 0;
+}
+
+.submitForm h3 {
+  flex: 45%;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.submitForm h3 span {
+  font-weight: bold;
+}
+
+.submitForm div {
+  flex: 45%;
+}

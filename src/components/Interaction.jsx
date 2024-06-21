@@ -17,6 +17,8 @@ const Interaction = () => {
 
   if (isClicked) {
     window.document.body.style.overflowY = "hidden";
+  } else {
+    window.document.body.style.overflowY = "scroll";
   }
   
   function handleClick() {
