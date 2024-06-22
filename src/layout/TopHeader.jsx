@@ -15,7 +15,7 @@ const TopHeader = () => {
       </div>
       <div className="quote">
 
-          <Button text="Request quot" url="/quots" />
+          <Button text="Request quot" url="#quots" />
 
       </div>
     </div>
