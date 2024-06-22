@@ -162,14 +162,7 @@ const Home = () => {
           <section>
             <Carolsel title="Certificates" />
           </section>
-          <section id="quots" className="submitFormContainer">
-            <div className="submitForm">
-              <div>
-                <h3>Innovative ideas to <span>skyrocket your online business</span>: Discover the top strategies to attract more customers and boost sales.</h3>
-              </div>
-              <FormSubmit />
-            </div>
-          </section>
+          
         </div>
       </main>
     </>

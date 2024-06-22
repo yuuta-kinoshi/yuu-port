@@ -1,3 +1,4 @@
+
 .globalForm,
 textarea {
   border: none;
@@ -24,3 +25,7 @@ label {
   flex-direction: column;
   gap: 5px;
 }
+
+.arrowDown {
+  font-size: 2em;
+} 

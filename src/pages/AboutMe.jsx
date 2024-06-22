@@ -18,6 +18,7 @@ const AboutMe = () => {
     <div className='about-modal wrapper'>
       <h3>About me...</h3>
       <p>Hello, my name is Yuuta, and at 18 years old, I bring with me a passion for building bridges in the digital world. At the moment, I dedicate myself entirely to studies in front-end web development. Every day, I look for new challenges and opportunities to put what I learn into practice, improving my skills and expanding my horizons.</p>
+      <h3 style={{marginTop: '30px'}}>Current Hard Skills</h3>
       <div className="technology">
         {<FaHtml5 />}
         {<FaCss3 />}
