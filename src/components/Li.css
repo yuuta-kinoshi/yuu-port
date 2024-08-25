@@ -1,5 +1,6 @@
 #li {
-  width: 800px;
+  max-width: 800px;
+  width: 95%;
   height: 54px;
   border-radius: 7px;
   border: 1px solid var(--pink-theme);
@@ -14,6 +15,7 @@
   transition: .35s;
 
   position: relative;
+
 }
 
 #li svg {
@@ -26,18 +28,21 @@
   cursor: pointer;
 }
 
-#li:hover {
-  transform: scale(1.05);
-}
-
 #li a {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
   width: 55%;
   height: 100%;
   padding-right: 300px;
   box-sizing: content-box;
+  position: relative;
+}
+
+#li a span {
+  width: 200px;
+  position: absolute;
+  left: 40px;
 }
 
 .modal-link {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Li.css";
-import { FaCheck, FaCopy, FaEllipsis } from "react-icons/fa6";
+import { FaCopy, FaEllipsis } from "react-icons/fa6";
 
 const Li = ({ icon, text, url, target }) => {
 
@@ -21,7 +21,9 @@ const Li = ({ icon, text, url, target }) => {
       <li id="li">
         <a href={url} target={target} rel="noopener noreferrer">
           {icon}
-          {text}
+          <span>
+            {text}
+          </span>
         </a>
         <FaEllipsis onClick={handleClick} />
         {modalLink && (

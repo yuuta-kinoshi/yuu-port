@@ -153,36 +153,6 @@
   margin-bottom: 35px;
 }
 
-@media (max-width: 700px) {
-  .introduction h1 {
-    font-size: 4em;
-  }
-  
-  .blocks {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .content {
-    flex-direction: column;
-  }
-
-  .lineCenter {
-    display: none;
-  }
-
-  .me h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    margin-top: -30px;
-  }
-
-  .experience {
-    width: 120px;
-    height: 90px;
-    text-align: center;
-    transform: translateX(35px);
-  }
-}
 
 .submitFormContainer {
   background-color: var(--dark-pink-theme);
